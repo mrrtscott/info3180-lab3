@@ -22,9 +22,12 @@ def home():
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html', name="Mario Scott")
+    return render_template('about.html', name="Lateefah Smellie")
 
 
+###
+# The functions below should be applicable to all Flask apps.
+###
 
 
 # Flash errors from the form if validation fails
