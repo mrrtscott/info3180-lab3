@@ -40,7 +40,7 @@ def contact():
             subject = contactPage.subject.data
             message = contactPage.message.data
 
-            msg = Message(subject, sender=(name, email),recipients=["c3fd27e777-ba79c3@inbox.mailtrap.io"])
+            msg = Message(subject, sender=(name, email),recipients=["e4fc473cdb-8bf6a4@inbox.mailtrap.io"])
             msg.body = message
             mail.send(msg) 
 
